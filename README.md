@@ -46,6 +46,9 @@ The project demonstrates:
 
 ---
 
+## Screenshot
+<img width="1918" height="906" alt="image" src="https://github.com/user-attachments/assets/57269970-ca9a-4a02-b7e4-31a71aae1e0f" />
+
 ## 📌 Project Status
 ✅ Completed as a learning project — not intended as a user-facing app.
 
