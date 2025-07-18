@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #d2dfe0;
+    color: #222324;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header_content {
+    background-color: #45575a;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.main_content {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+}
+
+.main_content button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background-color: #4a9dfc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main_content button:hover {
+    background-color: #224c70;
+    transform: scale(1.05);
+}
+
+.footer_content {
+    background-color: #383737;
+    color: #c5c3c3;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+
+/*
+Tablet
+*/
+@media (max-width: 768px) {
+    .header_content {
+        padding: 1rem;
+    }
+    
+    .main_content {
+        padding: 1.5rem;
+    }
+    
+    .footer_content {
+        padding: 1rem;
+    }
+    
+    .main_content button {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+/*
+Mobile
+*/
+@media (max-width: 480px) {
+    .header_content {
+        padding: 0.8rem;
+    }
+    
+    .main_content {
+        padding: 1rem;
+    }
+    
+    .footer_content {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .main_content button {
+        width: 100%;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    #console_instruction {
+        font-size: 0.9rem;
+    }
+}
